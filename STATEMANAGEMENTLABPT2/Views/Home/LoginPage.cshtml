@@ -1,0 +1,9 @@
+﻿@{
+    ViewBag.Title = "UserDetails";
+}
+<h2>You Are Signed In!!!</h2>
+@if (ViewBag.Current != null)
+{
+
+    @Html.ActionLink("Log in", "LoginPage", "Home")
+}
